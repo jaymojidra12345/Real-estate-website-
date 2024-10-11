@@ -1,0 +1,61 @@
+/* General styling for the contact page */
+.contact-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header for the page */
+  .contact-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Grid layout to organize contact cards */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 25px;
+    justify-items: center;
+  }
+  
+  /* Individual contact card styling */
+  .contact-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Hover effect for the cards */
+  .contact-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Styling the text inside the card */
+  .contact-card h2 {
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card p {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .contact-card em {
+    font-size: 0.9em;
+    color: #999;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

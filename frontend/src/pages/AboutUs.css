@@ -1,0 +1,65 @@
+.about-us-container {
+  display: flex;
+  justify-content: space-between; /* Spread the text and image apart */
+  align-items: flex-start; /* Align items at the top */
+  padding: 12rem; /* Adjust the padding as per your layout */
+  background-color: #f9f9f9;
+}
+
+.about-us-content {
+  flex: 1;
+  max-width: 50%; /* Ensure the text takes only 50% of the container */
+  padding-right: 2rem; /* Add space between the text and image */
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #2c3e50; /* Blue accent */
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.about-us-image {
+  flex: 1; /* Let the image section take the remaining space */
+  max-width: 50%; /* Restrict the image to 50% of the width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Styling for the 'Contact Our Realtors' link */
+.realtor-link {
+  font-size: 1.1rem; /* Slightly larger font for visibility */
+  color: #3498db; /* Blue accent for the link */
+  text-decoration: none; /* Remove the underline */
+  font-weight: 500; /* Slightly bold */
+  margin-top: 1.5rem; /* Spacing to separate it from other content */
+  display: inline-block;
+  transition: color 0.3s ease; /* Smooth transition effect */
+  background-color:;
+}
+
+.realtor-link:hover {
+  color: #2ecc71; /* Green color when hovered */
+  text-decoration: underline; /* Underline the link on hover */
+}
+button{
+  background-color: blue;
+}
